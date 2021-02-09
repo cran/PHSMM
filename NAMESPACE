@@ -1,0 +1,5 @@
+useDynLib(PHSMM, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "par")
+importFrom("stats", "dbinom", "nlm", "pbinom", "plogis", "qlogis","qnorm")
